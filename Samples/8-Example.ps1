@@ -26,7 +26,7 @@ $SourceFolder = "C:\IntuneWin32App\Source\GoogleChrome"
 $OutputFolder = "C:\IntuneWin32App\Output"
 $AppIconFile = "C:\IntuneWin32App\Icons\Chrome.png"
 
-# Retrieve information for latest Adobe Reader DC setup
+# Retrieve information for latest Google Chrome setup
 $GoogleChromeSetup = Get-LatestGoogleChromeInstaller
 Write-Output -InputObject "Latest version of Google Chrome detected as: $($GoogleChromeSetup.Version)"
 
